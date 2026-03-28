@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KY2filefrnd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1> KY2filefrnd</h1>
+
+    <div class="card">
+        <h3>Upload Code Files</h3>
+        <input type="file" id="files" multiple>
+        <button onclick="uploadFiles()">Upload</button>
+    </div>
+
+    <div id="chat" class="chat-box"></div>
+
+    <div class="input-area">
+        <input type="text" id="query" placeholder="Ask about your code...">
+        <button onclick="askQuestion()">Send</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
